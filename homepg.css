@@ -1,0 +1,98 @@
+body{
+  background-image: url('https://whitechocoboy24.github.io/sem3devassets/menubg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000%;
+  background-size: 200%;
+  
+}
+
+nav{
+    position: relative;
+	margin: 10px auto 0;
+	height: 45px;
+	bottom: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 8px;
+	font-size: 1px;
+  
+	/*box-shadow: 0 13px 5px 0 #b60d0d5c;*/
+}
+    
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 13px 5px 0 #000000c9;
+  }
+
+  /* restaurant menu buttons*/
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #ffe0e0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 13px 5px 0 #000000c9;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    box-shadow: 0 8px 10px 0 #ffffffe0;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* hover bar colour */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    bottom: 5px;
+    border-bottom: 3px solid #ffffff;
+    border-radius: 10%;
+    color: #ffffff;
+    transition: 0.5s;
+    box-shadow: 0 8px 10px 0 #ffffffe0;
+  }
+  
+  /* Dropdown content edits */
+  .dropdown-content {
+    border-radius: 10%;
+    display: none;
+    position: absolute;
+    background-color: #0000004c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.5s;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    border-bottom: 1px solid #000000;
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #0000007b;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

@@ -1,0 +1,98 @@
+body, html{
+    height: 120%;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    }
+    
+.background{
+    background-image: url('https://whitechocoboy24.github.io/sem3devassets/asset1.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.reserving-form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00fff2;
+    background-color: #000000c9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0;
+}
+
+.reserving-form input{
+    color: #000000;
+    background-color: #00ddff5a;
+    padding: 8px;
+    border: #d50000;
+    border-radius: 5%;
+}
+
+.reserving-form select{
+    color: #000000;
+    background-color: #00ddff5a;
+    padding: 8px;
+    border: #d50000;
+    border-radius: 5%;
+}
+
+.reserving-form textarea{
+    color: #000000;
+    background-color: #00ddff5a;
+    padding: 8px;
+    border: #d50000;
+    border-radius: 5%;
+}
+
+::placeholder{
+    font-style: italic;
+    color: #ffffff;
+    opacity: 70%;
+    padding: 8px;
+}
+
+.text-form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-color: #ffffff00;
+    padding: 0px;
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.text-field{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            background-color: #ff0000a9;
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 100%;
+            margin: 30x;
+            }
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #00ff227b;
+    padding: 3%;
+    border-radius: 100px;
+    max-width: 100%;
+    margin-left: 50%;
+    width: 100%;
+    margin: 0;
+    box-shadow: -1px -1px 5px 1px  #1eff00; /* box-shadow: px, px, px, faded opacity */
+}
+
+button:hover {
+    background-color: #00ff00;
+    box-shadow: -1px -1px 5px 1px  #00fffb; /* box-shadow: px, px, px, faded opacity */
+}
+

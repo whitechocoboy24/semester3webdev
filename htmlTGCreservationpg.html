@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation</title>
+    <link rel="stylesheet" href="cssTGCreservationpg.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="reserving-form">
+            <h2>Table Reservation Form</h2>
+            <form method="post" action="phpTGCreservation.php">
+                <label for="name"><div class="text-form">Name :</div></label>
+                <div class="text-form"><input type="text" name="name" id="name" placeholder="Your name here" required></div>
+                <ul>
+                </ul>
+                <label for="name"><div class="text-form">Chairs no :</div></label>
+                <input type="number" name="number" id= "number of Chairs" required placeholder="number of Chairs">
+                <ul>
+                </ul>
+                <label for="name"><div class="text-form">Reserve On :</div></label>
+                <input type="date" name="date" id="date" placeholder="Reservation needed on">
+                <ul>
+                </ul>
+                <label for="cars"><div class="text-form">Choose a car :</div></label>
+                <select name="cars" id="cars">
+                  <optgroup label="2 wheelers">
+                    <option value="Motorbike">Motorbike</option>
+                    <option value="Bicycle">Cycle</option>
+                  </optgroup>
+                  <optgroup label="4 wheelers">
+                    <option value="Car">Car</option>
+                    <option value="Van">Van</option>
+                  </optgroup>
+                </select>
+                <ul>
+                </ul>
+                <label for="subject"><div class="text-form">Mention any other needs: </div></label>
+                <textarea id="subject" name="subject" placeholder="Type your extras .." style="height:200px"></textarea>
+                <ul>
+                </ul>
+                <button type="submit">reserve now !</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
