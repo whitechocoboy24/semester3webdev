@@ -1,0 +1,41 @@
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.update-status-form {
+    display: flex;
+    align-items: center;
+}
+
+.update-status-form select {
+    padding: 5px 10px;
+    border: 1px solid #cd1414;
+    border-radius: 5px;
+    font-size: 11px;
+    width: 150px; /* Increased the width to 150px */
+}
+
+.update-status-form option {
+    width: 150px; /* Added this to set the width of the option */
+    padding: 5px 10px;
+}
+
+.update-status-form button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    background-image:linear-gradient(180deg, #ff0000 , #ff7a52 , #ff0000 );
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.update-status-form button:hover {
+    transition: 2s;
+    color: #ffffff;
+    background-image:linear-gradient(180deg, #ff7a52 , #ff0000 , #ff7a52 );
+}

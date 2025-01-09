@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Katv ondy';
+    src: url('Katvondy_Free.ttf'); /* replace with the path to your font file */
+  }
+
+  body{
+    background-image: url('webpics/web-bgs/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    cursor: url('mousepointer.png'), auto;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.wrapper {
+    max-width: 450px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 1px 30px 30px 30px;
+    background-color: #ecf0f3de;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.wrapper .form-field input[type="date"] {
+    width: 310px;
+    color: #555555d5;
+}
+
+h6{
+    text-align: center;
+    color: #474747;
+    font-size: 30px;
+    padding-bottom: -10%;
+    padding-top: -10%;
+    font-family: 'brush script mt';
+}
+
+h2{
+
+margin-left: -20%;
+}
+
+.profilepic {
+    width: 80px;
+    margin: auto;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+
+.profilepic img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #555;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.wrapper .form-field input {
+    margin-bottom: 20%;
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    margin-bottom: 10%;
+    margin-left: 40%;
+    font-size: large;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.wrapper .form-field .fas {
+    
+    font-size: 50px;
+    color: #555;
+}
+
+.wrapper .btn {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, #004cff5b, #7bf4ff71, #00d0ffc2);
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px 4px #0000005a;
+    letter-spacing: 1.3px;
+    margin-bottom: 10%;
+    padding-bottom: 9%;
+    padding-top: 3%;
+    margin-top: 10%;
+}
+
+.wrapper .btn:hover {
+    background: linear-gradient(to bottom, #00d0ffc2, #7bf4ff71, #004cff5b);
+    box-shadow: 1px 1px 5px 4px #d6f5f77e;
+    font-size: 22px;
+    transition: 1s;
+}
+
+.wrapper a {
+    
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4;
+}
+
+.wrapper a:hover {
+    color: #039BE5;
+}
+
+
+
+h2{
+    font-size: 17px;
+margin-left: 2%;
+margin-bottom: -7%;
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+
+button[type="submit"][name="save"] {
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+
+button[type="submit"] {
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    background-color: #0099ff; /* Green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"][name="save"]:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #00b7ff 0%, #00e1ff 40%, #00b7ff 50%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #33f1ff; /* Darker color on hover */
+    box-shadow: 0 0 20px 10px #33f1ff; /* Increased glowing effect on hover */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #FFFFFF; /* White color */
+    border-radius: 10px;
+  }
+

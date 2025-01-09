@@ -1,0 +1,130 @@
+
+body {
+    background-color: #efefef;
+    text-align: center;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+}
+
+.loader div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translate(80px, 80px) scale(1);
+    background: #5be1d1;
+    box-sizing: content-box;
+    animation: loading 1s infinite cubic-bezier(0, 0.5, 0.5, 1);
+}
+
+.loader div:nth-child(1) {
+    background: #92beff;
+    transform: translate(148px, 80px) scale(1);
+    animation: loading-r 0.25s infinite cubic-bezier(0, 0.5, 0.5, 1), loading-c 1s infinite step-start;
+}
+
+.loader div:nth-child(2) {
+    animation-delay: -0.25s;
+    background: #5be1d1;
+}
+
+.loader div:nth-child(3) {
+    animation-delay: -0.5s;
+    background: #67a4ff;
+}
+
+.loader div:nth-child(4) {
+    animation-delay: -0.75s;
+    background: #b3f9ff;
+}
+
+.loader div:nth-child(5) {
+    animation-delay: -1s;
+    background: #5495ff;
+}
+
+@keyframes loading {
+    0% {
+        transform: translate(12px, 88px) scale(0);
+    }
+
+    25% {
+        transform: translate(12px, 88px) scale(0);
+    }
+
+    50% {
+        transform: translate(12px, 88px) scale(1);
+    }
+
+    75% {
+        transform: translate(80px, 88px) scale(1);
+    }
+
+    100% {
+        transform: translate(148px, 88px) scale(1);
+    }
+}
+
+@keyframes loading-r {
+    0% {
+        transform: translate(148px, 88px) scale(1);
+    }
+
+    100% {
+        transform: translate(148px, 88px) scale(0);
+    }
+}
+
+@keyframes loading-c {
+    0% {
+        background: #5be1d1;
+    }
+
+    25% {
+        background: #b5f6ff;
+    }
+
+    50% {
+        background: #5479ff;
+    }
+
+    75% {
+        background: #0059ff;
+    }
+
+    100% {
+        background: #00ffe1;
+    }
+}
+
+h1{
+    font-size: 30px;
+    padding-top: 5%;
+    color: #0099ff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+h2{
+    font-size: 30px;
+    padding-top: 5%;
+    color: #ff1e00;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
